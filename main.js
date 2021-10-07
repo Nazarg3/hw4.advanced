@@ -21,7 +21,7 @@ for (const name of students) {
     }
 }
 if (mans.length !== womens.length) {
-    console.log("Непарна к-сть студетів")
+    console.log("Непарна кількість студетів")
 } else {
    for (let i = 0; i <mans.length; i++) {
        pairs.push([mans[i], womens[i]])
